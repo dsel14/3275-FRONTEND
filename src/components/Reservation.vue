@@ -17,7 +17,7 @@
             label="Select Table"
             v-model="selectedTableId"
             :items="availableTables"
-            :item-text="code"
+            item-title="code"
             item-value="id"
             :rules="[v => !!v || 'Please select a table']"
             required
